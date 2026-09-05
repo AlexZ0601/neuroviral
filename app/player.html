@@ -1,0 +1,68 @@
+<div class="nv-wrap">
+  <div class="nv-top">
+    <div class="nv-panel nv-videopanel">
+      <div class="nv-panel-h">▶ stimulus</div>
+      <div class="nv-videobox">
+        <video class="nv-video" playsinline muted preload="auto" style="display:none"></video>
+        <canvas class="nv-vidcanvas" width="480" height="300"></canvas>
+      </div>
+    </div>
+    <div class="nv-panel nv-brainpanel">
+      <div class="nv-panel-h nv-vizhead">◱ engagement signal</div>
+      <div class="nv-brainbox">
+        <canvas class="nv-brain" width="480" height="300"></canvas>
+        <div class="nv-readouts"></div>
+      </div>
+    </div>
+  </div>
+
+  <div class="nv-panel nv-tlpanel">
+    <div class="nv-panel-h">response timeline <span class="nv-sub">engagement signal, video-aligned</span></div>
+    <canvas class="nv-timeline" width="1000" height="220"></canvas>
+    <div class="nv-controls">
+      <button class="nv-play" type="button">▶ play</button>
+      <input class="nv-seek" type="range" min="0" max="100" step="0.1" value="0" />
+      <span class="nv-time">0.0 / 0.0s</span>
+    </div>
+  </div>
+
+  <div class="nv-panel nv-scorepanel"></div>
+
+  <script type="application/json" class="nv-payload">/*__PAYLOAD__*/null</script>
+</div>
+
+<style>
+  .nv-wrap{font-family:-apple-system,BlinkMacSystemFont,"Segoe UI",Roboto,sans-serif;color:#e8ecf4;
+    display:flex;flex-direction:column;gap:14px;max-width:1040px;margin:0 auto}
+  .nv-top{display:grid;grid-template-columns:1fr 1fr;gap:14px}
+  @media(max-width:760px){.nv-top{grid-template-columns:1fr}}
+  .nv-panel{background:#141a2b;border:1px solid #26304a;border-radius:14px;padding:12px 14px}
+  .nv-panel-h{font-size:12px;letter-spacing:.06em;text-transform:uppercase;color:#8fa0c4;margin-bottom:10px}
+  .nv-sub{text-transform:none;letter-spacing:0;color:#5f6f92;font-size:11px;margin-left:6px}
+  .nv-videobox,.nv-brainbox{position:relative;border-radius:10px;overflow:hidden;background:#0b1020}
+  .nv-vidcanvas,.nv-brain,.nv-video{width:100%;display:block;aspect-ratio:16/10}
+  .nv-timeline{width:100%;height:220px;display:block}
+  .nv-readouts{position:absolute;left:10px;bottom:10px;display:flex;gap:14px;font-size:12px;
+    background:rgba(6,10,22,.55);padding:5px 9px;border-radius:8px;backdrop-filter:blur(3px)}
+  .nv-ro{display:flex;align-items:center;gap:6px}
+  .nv-ro b{font-variant-numeric:tabular-nums}
+  .nv-dot{width:9px;height:9px;border-radius:50%;display:inline-block}
+  .nv-controls{display:flex;align-items:center;gap:12px;margin-top:10px}
+  .nv-play{background:#2dd4bf;color:#06121a;border:0;border-radius:8px;padding:7px 16px;font-weight:600;
+    cursor:pointer;font-size:14px}
+  .nv-play:hover{background:#5eead4}
+  .nv-seek{flex:1;accent-color:#2dd4bf;cursor:pointer}
+  .nv-time{font-variant-numeric:tabular-nums;color:#9fb0d4;font-size:13px;min-width:96px;text-align:right}
+  .nv-scorepanel{display:grid;grid-template-columns:200px 1fr;gap:20px;align-items:center}
+  @media(max-width:760px){.nv-scorepanel{grid-template-columns:1fr}}
+  .nv-scorebig{font-size:44px;font-weight:700;line-height:1;color:#fff}
+  .nv-scorelbl{color:#8fa0c4;font-size:12px;text-transform:uppercase;letter-spacing:.06em;margin-top:6px}
+  .nv-pct{color:#2dd4bf;font-weight:600}
+  .nv-drivers{display:flex;flex-direction:column;gap:8px}
+  .nv-drow{display:grid;grid-template-columns:120px 1fr 54px;align-items:center;gap:10px;font-size:12px}
+  .nv-dname{color:#9fb0d4}
+  .nv-dbar{height:10px;background:#26304a;border-radius:6px;overflow:hidden}
+  .nv-dfill{height:100%;border-radius:6px;background:linear-gradient(90deg,#2dd4bf,#38bdf8)}
+  .nv-dval{text-align:right;font-variant-numeric:tabular-nums;color:#cdd8f0}
+  .nv-noscore{color:#c7b26a;font-size:14px}
+</style>

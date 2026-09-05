@@ -1,0 +1,203 @@
+{
+  "schema_version": 2,
+  "video_id": "hit_dogpark",
+  "title": "Dog does a backflip (0:00 hook)  [sample]",
+  "duration_sec": 24.0,
+  "engine": "audiovisual",
+  "viz": "meter",
+  "channels": {
+    "a": {
+      "label": "Visual interest",
+      "color": "#2dd4bf",
+      "desc": "motion \u00b7 scene cuts \u00b7 detail"
+    },
+    "b": {
+      "label": "Audio energy",
+      "color": "#fb923c",
+      "desc": "loudness \u00b7 onsets"
+    }
+  },
+  "engagement": {
+    "views": 4200000,
+    "likes": 511000,
+    "subs": 210000,
+    "rate": 0.1217
+  },
+  "timeline": [
+    {
+      "t": 0.0,
+      "a": 0.322,
+      "b": 0.215,
+      "global": 0.269
+    },
+    {
+      "t": 1.0,
+      "a": 0.768,
+      "b": 0.425,
+      "global": 0.596
+    },
+    {
+      "t": 2.0,
+      "a": 1.012,
+      "b": 0.593,
+      "global": 0.802
+    },
+    {
+      "t": 3.0,
+      "a": 0.753,
+      "b": 0.453,
+      "global": 0.603
+    },
+    {
+      "t": 4.0,
+      "a": 0.304,
+      "b": 0.158,
+      "global": 0.231
+    },
+    {
+      "t": 5.0,
+      "a": 0.16,
+      "b": 0.07,
+      "global": 0.115
+    },
+    {
+      "t": 6.0,
+      "a": 0.115,
+      "b": 0.02,
+      "global": 0.068
+    },
+    {
+      "t": 7.0,
+      "a": 0.089,
+      "b": 0.059,
+      "global": 0.074
+    },
+    {
+      "t": 8.0,
+      "a": 0.072,
+      "b": 0.071,
+      "global": 0.071
+    },
+    {
+      "t": 9.0,
+      "a": 0.108,
+      "b": 0.014,
+      "global": 0.061
+    },
+    {
+      "t": 10.0,
+      "a": 0.052,
+      "b": 0.042,
+      "global": 0.047
+    },
+    {
+      "t": 11.0,
+      "a": 0.102,
+      "b": 0.031,
+      "global": 0.067
+    },
+    {
+      "t": 12.0,
+      "a": 0.055,
+      "b": 0.031,
+      "global": 0.043
+    },
+    {
+      "t": 13.0,
+      "a": 0.04,
+      "b": 0.017,
+      "global": 0.029
+    },
+    {
+      "t": 14.0,
+      "a": 0.06,
+      "b": 0.032,
+      "global": 0.046
+    },
+    {
+      "t": 15.0,
+      "a": 0.044,
+      "b": 0.014,
+      "global": 0.029
+    },
+    {
+      "t": 16.0,
+      "a": 0.039,
+      "b": 0.026,
+      "global": 0.032
+    },
+    {
+      "t": 17.0,
+      "a": 0.039,
+      "b": 0.0,
+      "global": 0.02
+    },
+    {
+      "t": 18.0,
+      "a": 0.068,
+      "b": 0.027,
+      "global": 0.048
+    },
+    {
+      "t": 19.0,
+      "a": 0.053,
+      "b": 0.003,
+      "global": 0.028
+    },
+    {
+      "t": 20.0,
+      "a": 0.07,
+      "b": 0.042,
+      "global": 0.056
+    },
+    {
+      "t": 21.0,
+      "a": 0.013,
+      "b": 0.008,
+      "global": 0.011
+    },
+    {
+      "t": 22.0,
+      "a": 0.045,
+      "b": 0.029,
+      "global": 0.037
+    },
+    {
+      "t": 23.0,
+      "a": 0.054,
+      "b": 0.009,
+      "global": 0.032
+    }
+  ],
+  "features": {
+    "hook_3s": 0.701,
+    "visual_peak": 1.012,
+    "visual_mean": 0.185,
+    "audio_mean": 0.1,
+    "decay_slope": -0.0203,
+    "variance": 0.044
+  },
+  "drivers": [
+    [
+      "hook (first 3s)",
+      0.701
+    ],
+    [
+      "visual peak",
+      1.012
+    ],
+    [
+      "audio energy",
+      0.1
+    ],
+    [
+      "sustained variance",
+      0.044
+    ]
+  ],
+  "brain_video": "",
+  "prediction": {
+    "score": 0.118,
+    "percentile": 94
+  }
+}

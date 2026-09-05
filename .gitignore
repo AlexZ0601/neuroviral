@@ -1,0 +1,19 @@
+# Large / regenerable artifacts — never commit
+data/raw/          # .npy prediction arrays, cached features (large)
+data/videos/       # downloaded .mp4 source videos
+cache/
+*.npy
+*.pt
+
+# Python
+__pycache__/
+*.py[cod]
+.venv/
+venv/
+.pytest_cache/
+.ipynb_checkpoints/
+
+# OS
+.DS_Store
+
+# Keep committed: data/results/ (the app reads this), data/metadata.csv

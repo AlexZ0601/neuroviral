@@ -1,0 +1,215 @@
+{
+  "schema_version": 2,
+  "video_id": "flop_unboxing",
+  "title": "Slow unboxing, no hook (payoff 0:18)  [sample]",
+  "duration_sec": 26.0,
+  "engine": "audiovisual",
+  "viz": "meter",
+  "channels": {
+    "a": {
+      "label": "Visual interest",
+      "color": "#2dd4bf",
+      "desc": "motion \u00b7 scene cuts \u00b7 detail"
+    },
+    "b": {
+      "label": "Audio energy",
+      "color": "#fb923c",
+      "desc": "loudness \u00b7 onsets"
+    }
+  },
+  "engagement": {
+    "views": 38000,
+    "likes": 290,
+    "subs": 210000,
+    "rate": 0.0076
+  },
+  "timeline": [
+    {
+      "t": 0.0,
+      "a": 0.086,
+      "b": 0.061,
+      "global": 0.074
+    },
+    {
+      "t": 1.0,
+      "a": 0.009,
+      "b": 0.0,
+      "global": 0.004
+    },
+    {
+      "t": 2.0,
+      "a": 0.065,
+      "b": 0.038,
+      "global": 0.051
+    },
+    {
+      "t": 3.0,
+      "a": 0.046,
+      "b": 0.001,
+      "global": 0.023
+    },
+    {
+      "t": 4.0,
+      "a": 0.034,
+      "b": 0.022,
+      "global": 0.028
+    },
+    {
+      "t": 5.0,
+      "a": 0.026,
+      "b": 0.0,
+      "global": 0.013
+    },
+    {
+      "t": 6.0,
+      "a": 0.008,
+      "b": 0.0,
+      "global": 0.004
+    },
+    {
+      "t": 7.0,
+      "a": 0.026,
+      "b": 0.044,
+      "global": 0.035
+    },
+    {
+      "t": 8.0,
+      "a": 0.038,
+      "b": 0.005,
+      "global": 0.021
+    },
+    {
+      "t": 9.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 10.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 11.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 12.0,
+      "a": 0.0,
+      "b": 0.02,
+      "global": 0.01
+    },
+    {
+      "t": 13.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 14.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 15.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 16.0,
+      "a": 0.03,
+      "b": 0.062,
+      "global": 0.046
+    },
+    {
+      "t": 17.0,
+      "a": 0.174,
+      "b": 0.076,
+      "global": 0.125
+    },
+    {
+      "t": 18.0,
+      "a": 0.273,
+      "b": 0.175,
+      "global": 0.224
+    },
+    {
+      "t": 19.0,
+      "a": 0.167,
+      "b": 0.128,
+      "global": 0.147
+    },
+    {
+      "t": 20.0,
+      "a": 0.026,
+      "b": 0.033,
+      "global": 0.029
+    },
+    {
+      "t": 21.0,
+      "a": 0.0,
+      "b": 0.008,
+      "global": 0.004
+    },
+    {
+      "t": 22.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 23.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 24.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    },
+    {
+      "t": 25.0,
+      "a": 0.0,
+      "b": 0.0,
+      "global": 0.0
+    }
+  ],
+  "features": {
+    "hook_3s": 0.053,
+    "visual_peak": 0.273,
+    "visual_mean": 0.039,
+    "audio_mean": 0.026,
+    "decay_slope": 0.0005,
+    "variance": 0.0029
+  },
+  "drivers": [
+    [
+      "hook (first 3s)",
+      0.053
+    ],
+    [
+      "visual peak",
+      0.273
+    ],
+    [
+      "audio energy",
+      0.026
+    ],
+    [
+      "sustained variance",
+      0.0029
+    ]
+  ],
+  "brain_video": "",
+  "prediction": {
+    "score": 0.014,
+    "percentile": 11
+  }
+}

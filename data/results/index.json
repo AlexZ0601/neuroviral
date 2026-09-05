@@ -1,0 +1,37 @@
+{
+  "schema_version": 2,
+  "videos": [
+    {
+      "video_id": "hit_dogpark",
+      "title": "Dog does a backflip (0:00 hook)  [sample]",
+      "duration_sec": 24.0,
+      "score": 0.118,
+      "engine": "audiovisual",
+      "thumbnail": null
+    },
+    {
+      "video_id": "mid_recipe",
+      "title": "15-second pasta recipe  [sample]",
+      "duration_sec": 18.0,
+      "score": 0.064,
+      "engine": "audiovisual",
+      "thumbnail": null
+    },
+    {
+      "video_id": "flop_unboxing",
+      "title": "Slow unboxing, no hook (payoff 0:18)  [sample]",
+      "duration_sec": 26.0,
+      "score": 0.014,
+      "engine": "audiovisual",
+      "thumbnail": null
+    },
+    {
+      "video_id": "raw_streetart",
+      "title": "Time-lapse street mural (no score)  [sample]",
+      "duration_sec": 30.0,
+      "score": null,
+      "engine": "audiovisual",
+      "thumbnail": null
+    }
+  ]
+}

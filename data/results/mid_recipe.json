@@ -1,0 +1,167 @@
+{
+  "schema_version": 2,
+  "video_id": "mid_recipe",
+  "title": "15-second pasta recipe  [sample]",
+  "duration_sec": 18.0,
+  "engine": "audiovisual",
+  "viz": "meter",
+  "channels": {
+    "a": {
+      "label": "Visual interest",
+      "color": "#2dd4bf",
+      "desc": "motion \u00b7 scene cuts \u00b7 detail"
+    },
+    "b": {
+      "label": "Audio energy",
+      "color": "#fb923c",
+      "desc": "loudness \u00b7 onsets"
+    }
+  },
+  "engagement": {
+    "views": 620000,
+    "likes": 41000,
+    "subs": 95000,
+    "rate": 0.0661
+  },
+  "timeline": [
+    {
+      "t": 0.0,
+      "a": 0.093,
+      "b": 0.058,
+      "global": 0.075
+    },
+    {
+      "t": 1.0,
+      "a": 0.158,
+      "b": 0.096,
+      "global": 0.127
+    },
+    {
+      "t": 2.0,
+      "a": 0.376,
+      "b": 0.186,
+      "global": 0.281
+    },
+    {
+      "t": 3.0,
+      "a": 0.612,
+      "b": 0.396,
+      "global": 0.504
+    },
+    {
+      "t": 4.0,
+      "a": 0.624,
+      "b": 0.358,
+      "global": 0.491
+    },
+    {
+      "t": 5.0,
+      "a": 0.389,
+      "b": 0.206,
+      "global": 0.297
+    },
+    {
+      "t": 6.0,
+      "a": 0.171,
+      "b": 0.081,
+      "global": 0.126
+    },
+    {
+      "t": 7.0,
+      "a": 0.096,
+      "b": 0.024,
+      "global": 0.06
+    },
+    {
+      "t": 8.0,
+      "a": 0.085,
+      "b": 0.06,
+      "global": 0.073
+    },
+    {
+      "t": 9.0,
+      "a": 0.074,
+      "b": 0.051,
+      "global": 0.063
+    },
+    {
+      "t": 10.0,
+      "a": 0.08,
+      "b": 0.009,
+      "global": 0.045
+    },
+    {
+      "t": 11.0,
+      "a": 0.082,
+      "b": 0.039,
+      "global": 0.061
+    },
+    {
+      "t": 12.0,
+      "a": 0.052,
+      "b": 0.004,
+      "global": 0.028
+    },
+    {
+      "t": 13.0,
+      "a": 0.083,
+      "b": 0.029,
+      "global": 0.056
+    },
+    {
+      "t": 14.0,
+      "a": 0.071,
+      "b": 0.052,
+      "global": 0.061
+    },
+    {
+      "t": 15.0,
+      "a": 0.068,
+      "b": 0.053,
+      "global": 0.06
+    },
+    {
+      "t": 16.0,
+      "a": 0.046,
+      "b": 0.044,
+      "global": 0.045
+    },
+    {
+      "t": 17.0,
+      "a": 0.046,
+      "b": 0.051,
+      "global": 0.048
+    }
+  ],
+  "features": {
+    "hook_3s": 0.209,
+    "visual_peak": 0.624,
+    "visual_mean": 0.178,
+    "audio_mean": 0.1,
+    "decay_slope": -0.0161,
+    "variance": 0.0215
+  },
+  "drivers": [
+    [
+      "hook (first 3s)",
+      0.209
+    ],
+    [
+      "visual peak",
+      0.624
+    ],
+    [
+      "audio energy",
+      0.1
+    ],
+    [
+      "sustained variance",
+      0.0215
+    ]
+  ],
+  "brain_video": "",
+  "prediction": {
+    "score": 0.064,
+    "percentile": 63
+  }
+}
